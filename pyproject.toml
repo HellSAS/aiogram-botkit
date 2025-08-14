@@ -1,0 +1,20 @@
+[build-system]
+requires = [ "setuptools>=61.0", "wheel",]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiogram-botkit"
+version = "0.1.0"
+description = "fully-featured template for creating production-ready Telegram bots."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [ "aiogram>=3.0.0",]
+[[project.authors]]
+name = "HellSAS"
+email = "hellsas666@gmail.com"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/HellSAS/aiogram-botkit"
